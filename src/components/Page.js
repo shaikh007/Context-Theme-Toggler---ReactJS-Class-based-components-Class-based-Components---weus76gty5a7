@@ -9,7 +9,7 @@ const Page = () => {
     return(
         <div className={'bg-'+theme} id="themed-page">
             <p id="themed-text-container" className={'txt-'+theme}>
-                lorem ipsum dolor iterit n stuff
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, adipisci.
             </p>
             {/* 'btn btn-'+theme 'txt-'+theme */}
             <button className={`btn btn-${theme} txt-${theme}`} id="themed-button">Themed Button</button>
